@@ -5,7 +5,6 @@ import operator  # Use Python's arithmetic functions without using unsafe eval()
 import tkinter as tk  # Build the window and all of its widgets.
 from tkinter import messagebox  # Show a small dialog when the user makes an error.
 
-
 # Store the arithmetic operations that the calculator is allowed to perform.
 ALLOWED_OPERATORS = {
     ast.Add: operator.add,  # Handle addition, such as 2 + 3.
